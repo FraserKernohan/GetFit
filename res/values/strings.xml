@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Get Fit</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_g_">G_Activity</string>
+    <string name="add_activity">AddActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="stairs">Stairs</string>
+	<string name="steps">Steps</string>
+	<string name="add_name_title">Please Enter Record Name</string>
+	<string name="add_number_title">Please Enter Number of Steps/Stairs to Complete</string>
+	<string name="add_date_title">Please Enter Target Completion Date</string>
+	<string name="add_record">Add Record</string>
+    
+</resources>
