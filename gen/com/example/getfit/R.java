@@ -25,43 +25,68 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000b;
-        public static final int buttonAdd=0x7f080009;
-        public static final int buttonAddRecord=0x7f080006;
-        public static final int buttonView=0x7f08000a;
-        public static final int editTextDate=0x7f080004;
-        public static final int editTextName=0x7f080001;
-        public static final int editTextNumber=0x7f080002;
-        public static final int radioButtonStairs=0x7f080007;
-        public static final int radioButtonSteps=0x7f080008;
-        public static final int textViewDate=0x7f080005;
-        public static final int textViewName=0x7f080000;
-        public static final int textViewNumber=0x7f080003;
+        public static final int ScrollView01=0x7f080000;
+        public static final int action_settings=0x7f08001b;
+        public static final int buttonAdd=0x7f08000c;
+        public static final int buttonAddRecord=0x7f08000b;
+        public static final int buttonView=0x7f08000d;
+        public static final int datePickerEnd=0x7f08000a;
+        public static final int datePickerStart=0x7f080008;
+        public static final int editTextName=0x7f080002;
+        public static final int editTextNumber=0x7f080004;
+        public static final int editTextStairs=0x7f080006;
+        public static final int listView1=0x7f080018;
+        public static final int textViewEnd=0x7f080009;
+        public static final int textViewName=0x7f080001;
+        public static final int textViewShowEnd=0x7f080016;
+        public static final int textViewShowName=0x7f080017;
+        public static final int textViewShowStairs=0x7f080013;
+        public static final int textViewShowStart=0x7f080015;
+        public static final int textViewShowSteps=0x7f080014;
+        public static final int textViewStairs=0x7f080005;
+        public static final int textViewStart=0x7f080007;
+        public static final int textViewSteps=0x7f080003;
+        public static final int textViewTrackEnd=0x7f080012;
+        public static final int textViewTrackName=0x7f08000e;
+        public static final int textViewTrackStair=0x7f080010;
+        public static final int textViewTrackStart=0x7f080011;
+        public static final int textViewTrackStep=0x7f08000f;
+        public static final int textView_date=0x7f08001a;
+        public static final int textView_name=0x7f080019;
     }
     public static final class layout {
         public static final int activity_add_=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int activity_view=0x7f030002;
+        public static final int activity_track=0x7f030002;
+        public static final int activity_view=0x7f030003;
+        public static final int my_row_layout=0x7f030004;
     }
     public static final class menu {
-        public static final int g_=0x7f070000;
+        public static final int add=0x7f070000;
         public static final int main=0x7f070001;
         public static final int view=0x7f070002;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
-        public static final int add_activity=0x7f050004;
-        public static final int add_date_title=0x7f05000b;
+        public static final int add_end_title=0x7f05000c;
         public static final int add_name_title=0x7f050009;
-        public static final int add_number_title=0x7f05000a;
-        public static final int add_record=0x7f05000c;
+        public static final int add_record=0x7f05000d;
+        public static final int add_stair_title=0x7f05000b;
+        public static final int add_start_title=0x7f05000e;
+        public static final int add_steps_title=0x7f05000a;
         public static final int app_name=0x7f050000;
         public static final int edit_message=0x7f050001;
-        public static final int hello_world=0x7f050005;
+        public static final int hello_world=0x7f050004;
         public static final int stairs=0x7f050007;
         public static final int steps=0x7f050008;
-        public static final int title_activity_g_=0x7f050003;
-        public static final int title_activity_view=0x7f050006;
+        public static final int title_activity_add=0x7f050003;
+        public static final int title_activity_track=0x7f050006;
+        public static final int title_activity_view=0x7f050005;
+        public static final int track_end=0x7f050013;
+        public static final int track_name=0x7f05000f;
+        public static final int track_stair=0x7f050011;
+        public static final int track_start=0x7f050012;
+        public static final int track_step=0x7f050010;
     }
     public static final class style {
         /** 

@@ -10,14 +10,16 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener{
 
 	public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
+	private GoalDatabaseManager gdm;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		gdm = GoalDatabaseManager.getInstance(this.getApplicationContext());
 	}
 
 	@Override
@@ -32,35 +34,14 @@ public class MainActivity extends Activity {
 	}
 	
 	public void onAddClick(View view){
-		
-		// Locate the button in activity_main.xml
-		Button add = (Button)findViewById(R.id.buttonAdd);
- 
-		// Capture button clicks
-		add.setOnClickListener(new OnClickListener() {
-			public void onClick(View view) {
- 
-				// Start NewActivity.class
-				Intent myIntent = new Intent(MainActivity.this,
-						AddActivity.class);
-				startActivity(myIntent);
-			}
-		});
+		Intent myIntent = new Intent(MainActivity.this, AddActivity.class);
+		startActivity(myIntent);
 	}
 
 	public void onViewClick(View view){
-		Button v = (Button)findViewById(R.id.buttonView);
-		 
-		// Capture button clicks
-		v.setOnClickListener(new OnClickListener() {
-			public void onClick(View view) {
- 
-				// Start NewActivity.class
 				Intent myIntent = new Intent(MainActivity.this,
 						ViewActivity.class);
 				startActivity(myIntent);
-			}
-		});
 	}
 	
 	@Override
@@ -73,5 +54,11 @@ public class MainActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
 	}
 }

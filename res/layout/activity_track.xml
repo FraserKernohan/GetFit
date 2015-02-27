@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewTrackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/track_name" />
+    
+    <TextView
+        android:id="@+id/textViewTrackStep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewTrackName"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/track_step" />
+
+    <TextView
+        android:id="@+id/textViewTrackStair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewTrackStep"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/track_stair" />
+
+    <TextView
+        android:id="@+id/textViewTrackStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewTrackStair"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/track_start"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textViewTrackEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:layout_centerVertical="true"
+        android:text="@string/track_end" />
+
+    <TextView
+        android:id="@+id/textViewShowStairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTrackStair"
+        android:layout_alignBottom="@+id/textViewTrackStair"
+        android:layout_alignLeft="@+id/textViewShowSteps"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textViewShowStart"
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTrackStart"
+        android:layout_alignBottom="@+id/textViewTrackStart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textViewShowEnd"
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTrackEnd"
+        android:layout_alignBottom="@+id/textViewTrackEnd"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/textViewShowSteps"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTrackStep"
+        android:layout_alignBottom="@+id/textViewTrackStep"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textViewShowName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTrackName"
+        android:layout_alignBottom="@+id/textViewTrackName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="48dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
